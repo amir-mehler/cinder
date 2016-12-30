@@ -1,0 +1,16 @@
+{
+  "monitors": {
+    "cpu": {
+      "interval": 1,
+      "expiration": 2, 
+      "command": "check-cpu.rb",
+      "parameters": "--critical 90 --warning 70"
+    },
+    "memory": {
+      "interval": 1,
+      "expiration": 2, 
+      "command": "check-memory.rb",
+      "parameters": "--critical 90 --warning 70"
+    }
+  }
+}

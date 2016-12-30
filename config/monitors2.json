@@ -1,0 +1,10 @@
+{
+  "monitors": {
+    "disk": {
+      "interval": 5,
+      "expiration": 30, 
+      "command": "check-disk-space.rb",
+      "parameters": "--critical 90 --warning 70 --path '/Volumes/Macintosh\ HD'"
+    }
+  }
+}

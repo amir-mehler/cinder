@@ -1,0 +1,13 @@
+{
+  "agent": {
+    "name": "dev-machine",
+    "id": "i-12345678abcdefgh",
+    "role": "dev",
+    "environment": "local",
+    "datacenter": "il"
+  },
+  "server": {
+    "address": "localhost",
+    "port": 6379
+  }
+}
